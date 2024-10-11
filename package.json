@@ -2,12 +2,12 @@
   "name": "ciumbrudplant",
   "version": "0.1.0",
   "private": true,
-  
-    "scripts": {
-      "dev": "next dev",
-      "build": "next build",
-      "start": "next start"
-    },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "test": "jest",
+    "start": "next start"
+  },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "@react-native-async-storage/async-storage": "^1.19.0",
@@ -41,6 +41,7 @@
     "redux": "^4.2.1",
     "redux-persist": "^6.0.0",
     "sass": "^1.63.4",
+    "sharp": "^0.33.5",
     "slick-carousel": "^1.8.1",
     "smooth-scrollbar": "^8.8.4",
     "swiper": "^9.4.1",
