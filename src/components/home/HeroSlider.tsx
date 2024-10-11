@@ -2,9 +2,9 @@ import React from 'react';
 import { EffectFade, Pagination, Scrollbar, A11y, Autoplay, } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import CountUpContent from '../common/counter/CountUpContent';
-import thumbOne from "../../../public/assets/img/banner/slider/slider-01-cp.jpg"
-import thumbTow from "../../../public/assets/img/banner/slider/slider-02.jpg"
-import thumbThree from "../../../public/assets/img/banner/slider/slider-03-cp.jpg"
+import thumbOne from "./Photos/slider-01-cp.jpg"
+import thumbTow from "./Photos/slider-02.jpg"
+import thumbThree from "./Photos/slider-03-cp.jpg"
 import Image from 'next/image';
 
 const HeroSlider = () => {
@@ -31,21 +31,21 @@ const HeroSlider = () => {
                         <SwiperSlide>
                             <div>
                                 <div className="bd-banner__image-2">
-                                    <img src="../../../public/assets/img/banner/slider/slider-01-cp.jpg" alt="banner-img" />
+                                    <Image src={thumbOne} alt="banner-img" width={600} height={750} />
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
                                 <div className="bd-banner__image-2">
-                                    <img src="../../../public/assets/img/banner/slider/slider-02-cp.jpg" alt="banner-img" />
+                                    <Image src={thumbTow} alt="banner-img" width={600} height={750} />
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
                                 <div className="bd-banner__image-2">
-                                    <img src="../../../public/assets/img/banner/slider/slider-03-cp.jpg" alt="banner-img" />
+                                    <Image src={thumbThree} alt="banner-img" width={600} height={750} />
                                 </div>
                             </div>
                         </SwiperSlide>
