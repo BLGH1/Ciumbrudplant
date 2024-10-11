@@ -31,21 +31,21 @@ const HeroSlider = () => {
                         <SwiperSlide>
                             <div>
                                 <div className="bd-banner__image-2">
-                                    <Image src={thumbOne} alt="banner-img" />
+                                    <img src="../../../public/assets/img/banner/slider/slider-01-cp.jpg" alt="banner-img" />
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
                                 <div className="bd-banner__image-2">
-                                <Image src={thumbTow} alt="banner-img" />
+                                    <img src="../../../public/assets/img/banner/slider/slider-02-cp.jpg" alt="banner-img" />
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
                                 <div className="bd-banner__image-2">
-                                <Image src={thumbThree}  alt="banner-img" />
+                                    <img src="../../../public/assets/img/banner/slider/slider-03-cp.jpg" alt="banner-img" />
                                 </div>
                             </div>
                         </SwiperSlide>
